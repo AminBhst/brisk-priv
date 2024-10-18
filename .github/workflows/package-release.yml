@@ -144,7 +144,7 @@ jobs:
       - name: Donwload artifact package
         uses: actions/download-artifact@v4.1.0
         with:
-          name: brisk-*
+          name: brisk-priv*
 
       # - name: Donwload artifact package
       #   uses: actions/download-artifact@v4.1.0
