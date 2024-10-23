@@ -4,7 +4,7 @@
 [![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20MacOS-blue)]()
 <p align="center">
 <img width="100" src="assets/icons/logo.png" alt="Brisk">
-<p align="center">Modern, ultra-fast download manager for desktop</pal>
+<p align="center">Ultra-fast, modern download manager for desktop</pal>
 </p>
 
 ## :package: Download
@@ -29,7 +29,7 @@ Brisk Download Manager is powered by a high-performance engine that delivers the
 The key features of the engine include:
 - **Dynamic Connection Spawn:** Downloads begin with a single connection, with more connections dynamically added on the fly.
 - **Dynamic Connection Reuse:** Completed connections are reassigned to assist other active connections, maintaining the maximum number of concurrent connections to maintaining the highest possible download speed.
-- **Smart connection reset:** Hanging connections will be reset automatically.
+- **Automatic connection reset:** Hanging connections will be reset automatically.
 
 ## :globe_with_meridians: Browser Integration
 Brisk supports [Browser Integration](https://github.com/AminBhst/brisk-browser-extension) that allows for capturing downloads from the browser and adding them directly into the app.
