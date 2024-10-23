@@ -7,26 +7,15 @@
 <p align="center"> Fast, multithreaded, cross-platform download manager</pal>
 </p>
 
-## Download
+## :package: Download
 
-Installation files for Windows and Linux are available
-at [Github Releases](https://github.com/AminBhst/brisk/releases/).
+Installation files for Windows and Linux are available at [Github Releases](https://github.com/AminBhst/brisk/releases/).
 
-Brisk is also available on the [Arch AUR](https://aur.archlinux.org/packages/brisk-bin)
+For Linux, make sure to read the [Linux Prerequisites](#linux-prerequisites)
 
-## Browser Integration
-Brisk supports [Browser Integration](https://github.com/AminBhst/brisk-browser-extension) that allows for capturing downloads from the browser and adding them directly into the app.
 
-### Installing The Browser Extension
-#### Chrome / Edge / Opera
-[link-chrome]: https://github.com/AminBhst/brisk-browser-extension/releases/latest 'Version published on Chrome Web Store'
+Brisk is also available on the [Arch AUR](https://aur.archlinux.org/packages/brisk-bin) (v1.4.6)
 
-[<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">][link-chrome] [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/edge/edge.svg" width="48" alt="Edge" valign="middle">][link-chrome] [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/opera/opera.svg" width="48" alt="Opera" valign="middle">][link-chrome]
-
-#### Firefox
-[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/brisk/
-
-[<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox.svg" width="48" alt="Firefox" valign="middle">][link-firefox]
 ## Linux Prerequisites
 
 ### keybinder-3
@@ -39,34 +28,48 @@ Brisk supports [Browser Integration](https://github.com/AminBhst/brisk-browser-e
 - Fedora/RHEL/CentOS : ```libayatana-appindicator-gtk3```
 - Arch Linux : ```libappindicator-gtk3```
 
-## Features
+## :rocket: Key Features
 
-- Browser Integration
-- Multi-segment file downloading
+- [Powerful Download Engine](#brisks-download-engine)
+- [Browser Integration](#browser-integration)
 - Download Queues
-- Smart connection reset
 - Hotkey (ctrl+alt+A) to quickly add a download URL from the clipboard
+
+## :gear: Brisk's Download Engine
+Brisk Download Manager is powered by a high-performance engine that delivers the highest possible download speed across the entire duration of the download.
+
+The key features of the engine include:
+- **Dynamic Connection Spawn:** Downloads begin with a single connection, with more connections dynamically added on the fly.
+- **Dynamic Connection Reuse:** Completed connections are reassigned to assist other active connections, maintaining the maximum number of concurrent connections to maintaining the highest possible download speed.
+- **Smart connection reset:** No connections will be left hanging.
+
+## :globe_with_meridians: Browser Integration
+Brisk supports [Browser Integration](https://github.com/AminBhst/brisk-browser-extension) that allows for capturing downloads from the browser and adding them directly into the app.
+
+### Installing The Browser Extension
+#### Chrome / Edge / Opera
+[link-chrome]: https://github.com/AminBhst/brisk-browser-extension/releases/latest 'Version published on Chrome Web Store'
+
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">][link-chrome] [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/edge/edge.svg" width="48" alt="Edge" valign="middle">][link-chrome] [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/opera/opera.svg" width="48" alt="Opera" valign="middle">][link-chrome]
+
+#### Firefox
+[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/brisk/
+
+[<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox.svg" width="48" alt="Firefox" valign="middle">][link-firefox]
 
 ## Demo With Browser Integration
 
 <img align="center" width="850" src="assets/Brisk-Demo.gif">
 
-## Build From Source
+## :hammer_and_wrench: Build From Source
 
-Download the Flutter SDK (Recommended version 3.16.9) and set the path variable
+Download the Flutter SDK v2.22.0 and set the path variable
 
 ```bash
 flutter build macos|windows|linux
 ```
 
-## Features to come
-
-- Dynamic file segmentation for highest download speed
-- Download speed limiter
-- Download Scheduling
-
 If you have a feature request, please open an issue and explain it in details.
 
-## Credits
+## :heart: Credits
 - GitHub Actions : [AliML111](https://github.com/AliML111)
-- MacOS support : [Norman-w](https://github.com/Norman-w)
