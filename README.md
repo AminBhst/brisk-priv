@@ -11,7 +11,7 @@
 
 Installation files for Windows and Linux are available at [Github Releases](https://github.com/AminBhst/brisk/releases/).
 
-For Linux, make sure to read the [Linux Prerequisites](#linux-prerequisites)
+For Linux, make sure to read the [Linux Prerequisites](#key-linux-prerequisites)
 
 
 Brisk is also available on the [Arch AUR](https://aur.archlinux.org/packages/brisk-bin) (v1.4.6)
