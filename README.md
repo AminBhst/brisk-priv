@@ -16,18 +16,6 @@ For Linux, make sure to read the [Linux Prerequisites](#linux-prerequisites)
 
 Brisk is also available on the [Arch AUR](https://aur.archlinux.org/packages/brisk-bin) (v1.4.6)
 
-## Linux Prerequisites
-
-### keybinder-3
-- Debian/Ubuntu : ```libkeybinder-3.0-0```
-- Fedora/RHEL/CentOS : ```keybinder3```
-- Arch Linux : ```libkeybinder3```
-
-### appindicator3-0.1
-- Debian/Ubuntu : ```libayatana-appindicator3-dev```
-- Fedora/RHEL/CentOS : ```libayatana-appindicator-gtk3```
-- Arch Linux : ```libappindicator-gtk3```
-
 ## :rocket: Key Features
 
 - [Powerful Download Engine](#brisks-download-engine)
@@ -57,9 +45,22 @@ Brisk supports [Browser Integration](https://github.com/AminBhst/brisk-browser-e
 
 [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox.svg" width="48" alt="Firefox" valign="middle">][link-firefox]
 
-## Demo With Browser Integration
+## :arrow_forward: Demo With Browser Integration
 
 <img align="center" width="850" src="assets/Brisk-Demo.gif">
+
+## Linux Prerequisites
+
+  - **keybinder-3**
+     - Debian/Ubuntu : ```libkeybinder-3.0-0```
+     - Fedora/RHEL/CentOS : ```keybinder3```
+     - Arch Linux : ```libkeybinder3```
+
+  - **appindicator3-0.1**
+     - Debian/Ubuntu : ```libayatana-appindicator3-dev```
+     - Fedora/RHEL/CentOS : ```libayatana-appindicator-gtk3```
+     - Arch Linux : ```libappindicator-gtk3```
+
 
 ## :hammer_and_wrench: Build From Source
 
@@ -69,7 +70,10 @@ Download the Flutter SDK v2.22.0 and set the path variable
 flutter build macos|windows|linux
 ```
 
-If you have a feature request, please open an issue and explain it in details.
+## :heart: Credits and Contributors
+Contributions are welcome and appreciated.
 
-## :heart: Credits
-- GitHub Actions : [AliML111](https://github.com/AliML111)
+### :medal: Special thanks to:
+- [AliML111](https://github.com/AliML111)
+- [Zorin FOSS](https://github.com/ZorinFoss)
+- [Norman Wang](https://github.com/Norman-w)
