@@ -18,8 +18,8 @@ Brisk is also available on the [Arch AUR](https://aur.archlinux.org/packages/bri
 
 ## :rocket: Key Features
 
-- [Powerful Download Engine](#brisks-download-engine)
-- [Browser Integration](#browser-integration)
+- [Powerful Download Engine](#gear-brisks-download-engine)
+- [Browser Integration](#globewithmeridians-browser-integration)
 - Download Queues
 - Hotkey (ctrl+alt+A) to quickly add a download URL from the clipboard
 
