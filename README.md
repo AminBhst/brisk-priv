@@ -34,7 +34,6 @@ The key features of the engine include:
 ## :globe_with_meridians: Browser Integration
 Brisk supports [Browser Integration](https://github.com/AminBhst/brisk-browser-extension) that allows for capturing downloads from the browser and adding them directly into the app.
 
-### Installing The Browser Extension
 #### Chrome / Edge / Opera
 [link-chrome]: https://github.com/AminBhst/brisk-browser-extension/releases/latest 'Version published on Chrome Web Store'
 
@@ -45,11 +44,11 @@ Brisk supports [Browser Integration](https://github.com/AminBhst/brisk-browser-e
 
 [<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox.svg" width="48" alt="Firefox" valign="middle">][link-firefox]
 
-## :arrow_forward: Demo With Browser Integration
+## :film_projector: Demo With Browser Integration
 
 <img align="center" width="850" src="assets/Brisk-Demo.gif">
 
-## Linux Prerequisites
+## :key: Linux Prerequisites
 
   - **keybinder-3**
      - Debian/Ubuntu : ```libkeybinder-3.0-0```
@@ -73,7 +72,7 @@ flutter build macos|windows|linux
 ## :heart: Credits and Contributors
 Contributions are welcome and appreciated.
 
-### :medal: Special thanks to:
+### :trophy: Special thanks to:
 - [AliML111](https://github.com/AliML111)
 - [Zorin FOSS](https://github.com/ZorinFoss)
 - [Norman Wang](https://github.com/Norman-w)
